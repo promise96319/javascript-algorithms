@@ -1,4 +1,5 @@
 /**
+ * 笛卡尔积
  * Generates Cartesian Product of two sets.
  * @param {*[]} setA
  * @param {*[]} setB

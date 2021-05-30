@@ -1,5 +1,8 @@
 import BinarySearchTreeNode from './BinarySearchTreeNode';
 
+/**
+ * 二叉搜索树
+ */
 export default class BinarySearchTree {
   /**
    * @param {function} [nodeValueCompareFunction]

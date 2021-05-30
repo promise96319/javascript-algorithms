@@ -2,6 +2,11 @@ import Comparator from '../../utils/comparator/Comparator';
 
 /**
  * Parent class for Min and Max Heaps.
+ * 参考文章
+ * https://blog.csdn.net/tuke_tuke/article/details/50357939
+ * 完全二叉树，从左往右从上往下的顺序
+ * 插入时，判断当前节点 和 父节点/子节点 的关系，进行交换位置（最大堆/最小堆）
+ * 用于优先队列等场景
  */
 export default class Heap {
   /**

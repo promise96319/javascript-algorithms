@@ -1,4 +1,5 @@
 /**
+ * 取最大公约数
  * Recursive version of Euclidean Algorithm of finding greatest common divisor (GCD).
  * @param {number} originalA
  * @param {number} originalB

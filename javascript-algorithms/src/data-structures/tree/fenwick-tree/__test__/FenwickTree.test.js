@@ -4,7 +4,6 @@ describe('FenwickTree', () => {
   it('should create empty fenwick tree of correct size', () => {
     const tree1 = new FenwickTree(5);
     expect(tree1.treeArray.length).toBe(5 + 1);
-
     for (let i = 0; i < 5; i += 1) {
       expect(tree1.treeArray[i]).toBe(0);
     }
@@ -22,6 +21,8 @@ describe('FenwickTree', () => {
     inputArray.forEach((value, index) => {
       tree.increase(index + 1, value);
     });
+
+    console.log(tree);
 
     expect(tree.treeArray).toEqual([0, 3, 5, -1, 10, 5, 9, -3, 19, 7, 9, 3]);
 

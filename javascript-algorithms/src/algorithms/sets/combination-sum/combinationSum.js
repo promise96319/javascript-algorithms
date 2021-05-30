@@ -1,4 +1,5 @@
 /**
+ * 组合求和
  * @param {number[]} candidates - candidate numbers we're picking from.
  * @param {number} remainingSum - remaining sum after adding candidates to currentCombination.
  * @param {number[][]} finalCombinations - resulting list of combinations.

@@ -1,5 +1,13 @@
 import TrieNode from './TrieNode';
 
+/**
+ * 每次添加一个 word 的时候
+ * 将第一个字符生成 Trie Node，添加到 head children 散列中
+ * 将第二个字符生成 Trie Node，添加到 第一个字符 children 散列中
+ * 以此类推...
+ * => 其中如果某个字符的 Trie Node 存在，就使用该 Node
+ */
+
 // Character that we will use for trie tree root.
 const HEAD_CHARACTER = '*';
 
